@@ -1,0 +1,194 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+ font-family: 'kaushanScript-Regular';
+ src: url('fonts/kaushanScript-Regular.otf');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'sinkin_sans400_regular';
+    src: url('fonts/SinkinSans-400Regular-webfont.eot');
+    src: url('fonts/SinkinSans-400Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SinkinSans-400Regular-webfont.woff2') format('woff2'),
+         url('fonts/SinkinSans-400Regular-webfont.woff') format('woff'),
+         url('fonts/SinkinSans-400Regular-webfont.ttf') format('truetype'),
+         url('fonts/SinkinSans-400Regular-webfont.svg#sinkin_sans400_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ambleregular';
+    src: url('fonts/Amble-Regular-webfont.eot');
+    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Regular-webfont.woff') format('woff'),
+         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+body
+{
+    background-color: rgb(203,235,237);
+    font-family: 'ambleregular', Arial, sans-serif;
+    color: rgb(4,1,44);
+    font-size: 1.1em;
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+
+    border: 4px black groove 
+    border-radius: 20px/ 10px;
+    box-shadow: 6px 6px 10px grey;
+
+}
+section h1, footer h1, nav a
+{
+    font-family: 'ambleregular' , serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* Header */
+
+header
+{
+    background: url('images/mini_pp') repeat-x bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+header h1
+{
+    font-family: 'ambleregular', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2
+{
+    font-family: 'kaushanScript-Regular', serif;
+    font-size: 1.5em;
+    margin-top: 0px;
+    font-weight: normal;
+ 
+}
+
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    border: 4px black groove 
+    border-radius: 20px/ 10px;
+    box-shadow: 6px 6px 10px grey;
+}
+nav li
+{
+    margin-right: 15px;
+}
+
+
+nav a
+{
+    font-size: 1.3em;
+    color: black;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+.ico_categorie
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 1.1em;
+}
+
+aside
+{
+    flex: 1.1;
+    position: relative;
+    background-color: rgb(164,232,234);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(4,1,44);
+    font-size: 1.0em;
+}
+aside img{
+
+
+}
+
+
+footer
+{
+    display: flex;
+    margin-right: 15px
+    
+}
+
+footer p, footer ul
+{
+    font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+}
+
+
+}
